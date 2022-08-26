@@ -66,6 +66,14 @@
 
 }
 
-@media screen AND(max-width:768px) {
-  .tag {}
+@media screen and (max-width: 768px) {
+  .tag {
+    float: left;
+    /* TODO-Kevin!!!!! */
+    position: static;
+    top: 60vh;
+    left: 10vh;
+    z-index: 1000;
+
+  }
 }
